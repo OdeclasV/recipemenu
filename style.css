@@ -1,0 +1,71 @@
+/** {
+	outline: 1px solid red !important;
+}
+*/
+
+/*makes browser calculate total size of the boxes*/
+* {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+}
+
+.container {
+	width: 80%;
+	height: 80%;
+}
+
+#menu, #mustdo {
+	display: flex;
+}
+
+#mustdo, .moreideas {
+	margin-left: 200px;
+}
+
+.page_title {
+	text-align: center;
+	margin-left: 200px;
+	margin-bottom: 45px;
+	background: #FFC107;
+}
+
+.menu_days {
+	margin-left: 200px;
+	display: flex;
+}
+
+.oddday {
+	background: #FFC107;
+}
+
+.evenday {
+	background: #ffecb3
+}
+
+.mustdo_recipetitle {
+	padding-left: 10px;
+}
+
+h4 a, .mustdo_recipetext {
+	color: #757575;
+}
+
+h1 {
+	background: #ffa000;
+}
+
+a {
+	color: #212121;
+}
+
+/*makes background color stand out when hovering over the anchor*/
+a:hover {
+	background-color: #ffeb3b;
+}
+
+li {
+	margin-bottom: 15px;
+}
