@@ -43,12 +43,21 @@
 
 }
 
+.mustdo_title {
+	padding-right: 40px;
+}
+
+.mustdo_title:hover {
+	text-decoration: underline;
+
+}
+
 .mustdo_recipe {
 	display: none;
 }
 
 .mustdo_recipetitle {
-	padding-left: 10px;
+	padding-left: auto;
 }
 
 h4 a, .mustdo_recipetext {
