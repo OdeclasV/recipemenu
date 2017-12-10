@@ -21,16 +21,12 @@
 	margin-left: 200px;
 }
 
+
 .page_title {
 	text-align: center;
 	margin-left: 200px;
 	margin-bottom: 45px;
 	background: #FFC107;
-}
-
-.menu_days {
-	margin-left: 200px;
-	display: flex;
 }
 
 #menu div:nth-child(odd) {
@@ -42,6 +38,20 @@
 	background-color: #FFECB3
 
 }
+
+#menu h3 {
+	text-align: center;
+}
+
+.menu_days {
+	margin-left: 200px;
+	display: flex;
+}
+
+.menu_options li {
+	list-style: none;
+}
+
 
 .mustdo_title {
 	padding-right: 40px;
