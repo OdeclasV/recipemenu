@@ -59,7 +59,7 @@
 
 .mustdo_title:hover {
 	text-decoration: underline;
-
+	cursor: pointer;
 }
 
 .mustdo_recipe {
