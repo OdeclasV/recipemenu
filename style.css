@@ -33,12 +33,18 @@
 	display: flex;
 }
 
-.oddday {
-	background: #FFC107;
+#menu div:nth-child(odd) {
+	background-color: #FFC107;
+
 }
 
-.evenday {
-	background: #ffecb3
+#menu div:nth-child(2n) {
+	background-color: #FFECB3
+
+}
+
+.mustdo_recipe {
+	display: none;
 }
 
 .mustdo_recipetitle {
@@ -64,4 +70,9 @@ a:hover {
 
 li {
 	margin-bottom: 15px;
+}
+
+
+.moreideas p::first-line{
+	font-weight: bold;
 }
